@@ -4,11 +4,11 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # Game libs
-src/lib/UnityEngine.UI.dll
-src/lib/UnityEngine.CoreModule.dll
-src/lib/UnityEngine.dll
-src/lib/Assembly-CSharp.dll
-src/lib/Assembly-CSharp-firstpass.dll
+lib/UnityEngine.UI.dll
+lib/UnityEngine.CoreModule.dll
+lib/UnityEngine.dll
+lib/Assembly-CSharp.dll
+lib/Assembly-CSharp-firstpass.dll
 
 **/ModCounter/
 
@@ -230,7 +230,7 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 
-# Including strong name files can present a security risk 
+# Including strong name files can present a security risk
 # (https://github.com/github/gitignore/pull/2483#issue-259490424)
 #*.snk
 
@@ -326,7 +326,7 @@ __pycache__/
 # OpenCover UI analysis results
 OpenCover/
 
-# Azure Stream Analytics local run output 
+# Azure Stream Analytics local run output
 ASALocalRun/
 
 # MSBuild Binary and Structured Log
@@ -335,7 +335,7 @@ ASALocalRun/
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
 
-# MFractors (Xamarin productivity tool) working folder 
+# MFractors (Xamarin productivity tool) working folder
 .mfractor/
 Mods
 src/lib/Unity.TextMeshPro.dll
