@@ -1,9 +1,6 @@
-<a name="cairath-s-mods-for-oxygen-not-included-omit-in-toc"></a>
-# Mods for Oxygen Not Included <!-- omit in toc -->
 <div align="center">
-
-master branch last updated to game version **LU-364722**
-
+	<h1>Mods for Oxygen Not Included</h1>
+	<span>master branch last updated to game version **RP-383949**</span>
 </div>
 
 - [Instructions](#instructions)
@@ -12,7 +9,6 @@ master branch last updated to game version **LU-364722**
 - [List of mods](#list-of-mods)
     - [Categories - legend](#categories---legend)
     - [Mods](#mods)
-- [Tools Not Included](#tools-not-included)
 - [Special thanks](#special-thanks)
 
 
@@ -47,10 +43,10 @@ Some mods have more than one category, for example mod with categories `Decor, B
 ### Mods
 |        **Cat.**         | **Name**                            | **Description**                                                                                                                                                                                                   |                                 **Steam**                                  |
 | :---------------------: | :---------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------: |
-|         **QoL**         | Increased Research Storage                | Increases.                                                                                                                                                                  | [click](https://steamcommunity.com/sharedfiles/filedetails/?id=1828274492) |
-|        **Build**        | Algae Grower                        | Adds a building that uses water, carbon dioxide and fertilizer to produce algae and some O<sub>2</sub>.                                                                                                           | [click](https://steamcommunity.com/sharedfiles/filedetails/?id=1703606095) |
-|        **Decor**        | Colorful Shinebugs                  | A standalone part of Ranching Rebalanced - makes shinebugs' light much more colorful.                                                                                                                             | [click](https://steamcommunity.com/sharedfiles/filedetails/?id=1702980293) |
-|  **QoL**<br/>**Mech**   | Configurable Motion Sensor Range    | Allows configuring the range on Duplicant Motion Sensors.                                                                                                                                                         | [click](https://steamcommunity.com/sharedfiles/filedetails/?id=1842284802) |
+|         **QoL**         | Increased Research Storage                | Increases Base, Advanced, and Cosmic Research station to hold more dirt/water/databanks, respectively.| N/A |
+|        **Build**        |                         | . | .                                                                                                           | N/A |
+|        **Decor**        |                   | . | .                                                                                                                             | N/A |
+|  **QoL**<br/>**Mech**   |     | . | .                                                                                                                                                        | N/A |
 
 <a name="special-thanks"></a>
 # Special thanks
