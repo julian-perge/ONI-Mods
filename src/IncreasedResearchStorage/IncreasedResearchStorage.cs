@@ -1,5 +1,6 @@
 ﻿using System;
 using Harmony;
+using STRINGS;
 
 namespace IncreasedResearchStorage
 {
@@ -11,7 +12,7 @@ namespace IncreasedResearchStorage
             go.AddOrGet<Storage>().capacityKg = 3750f;
             go.AddOrGet<ManualDeliveryKG>().capacity = 3750f;
             go.AddOrGet<ManualDeliveryKG>().refillMass = 500f;
-            Debug.Log("[IncreasedResearchStorage] loaded...");
+            Debug.Log("[IncreasedResearchStorage] Base Research Center loaded...");
         }
     }
     [HarmonyPatch(typeof(AdvancedResearchCenterConfig), "ConfigureBuildingTemplate")]
@@ -22,6 +23,7 @@ namespace IncreasedResearchStorage
             go.AddOrGet<Storage>().capacityKg = 3750f;
             go.AddOrGet<ManualDeliveryKG>().capacity = 3750f;
             go.AddOrGet<ManualDeliveryKG>().refillMass = 500f;
+            Debug.Log("[IncreasedResearchStorage] Advanced Research Center loaded...");
         }
     }
     [HarmonyPatch(typeof(CosmicResearchCenterConfig), "ConfigureBuildingTemplate")]
@@ -32,7 +34,7 @@ namespace IncreasedResearchStorage
             go.AddOrGet<Storage>().capacityKg = 1500f;
             go.AddOrGet<ManualDeliveryKG>().capacity = 1500f;
             go.AddOrGet<ManualDeliveryKG>().refillMass = 15f;
+            Debug.Log("[IncreasedResearchStorage] Cosmic Research Center loaded...");
         }
     }
-
 }
