@@ -11,7 +11,6 @@
     - [Mods](#mods)
 - [Special thanks](#special-thanks)
 
-
 <a name="instructions"></a>
 # Instructions
 <a name="instructions-download"></a>
@@ -37,17 +36,40 @@ Please make sure the mods you use are up to date and remove ones that aren't - t
 |  **Decor**   | **Decor / visuals:** Mods that focus on decor items or non-building visual stuff                 |
 |  **Build**   | **Buildings:** Mods that add a new building to the game                                          |
 
-Some mods have more than one category, for example mod with categories `Decor, Build` means that the mod adds a decor building.
 
-<a name="list-of-mods-mods"></a>
-### Mods
-|        **Cat.**         | **Name**                            | **Description**                                                                                                                                                                                                   |                                 **Steam**                                  |
-| :---------------------: | :---------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------: |
-|         **QoL**         | Increased Research Storage                | Increases Base, Advanced, and Cosmic Research station to hold more dirt/water/databanks, respectively.| N/A |
-|         **QoL**         | Rounded Research Points                | Rounds the mass consumed when researching to avoid rounding errors. Most notable with databanks.| N/A |
-|        **Build**        |                         | . | .                                                                                                           | N/A |
-|        **Decor**        |                   | . | .                                                                                                                             | N/A |
-|  **QoL**<br/>**Mech**   |     | . | .                                                                                                                                                        | N/A |
+
+<table>
+
+	<tr>
+		<td>**Cat.**</td>
+		<td>**Name**</td>
+		<td>**Description**</td>
+		<td>**Steam**</td>
+	</tr>
+	
+	<tr>
+		<td>**QoL**</td>
+		<td>Increased Research Storage</td>
+		<td>Increases Base, Advanced, and Cosmic Research station to hold more dirt/water/databanks, respectively.</td>
+		<td>[Link](https://steamcommunity.com/sharedfiles/filedetails/?id=1961434527)</td>
+	</tr>
+	
+	<tr>
+		<td>**QoL**</td>
+		<td>Rounded Research Points</td>
+		<td>Rounds the mass consumed when researching to avoid rounding errors. Most notable with databanks.</td>
+		<td>[Link](https://steamcommunity.com/sharedfiles/filedetails/?id=1961438756)</td>
+	</tr>
+	
+	<tr>
+		<td>**hodor**</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	
+</table>
+
 
 <a name="special-thanks"></a>
 # Special thanks
