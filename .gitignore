@@ -4,11 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # Game libs
-lib/UnityEngine.UI.dll
-lib/UnityEngine.CoreModule.dll
-lib/UnityEngine.dll
-lib/Assembly-CSharp.dll
-lib/Assembly-CSharp-firstpass.dll
+lib/*
 
 **/ModCounter/
 
