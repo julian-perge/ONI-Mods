@@ -52,3 +52,7 @@ Some mods have more than one category, for example mod with categories `Decor, B
 <a name="special-thanks"></a>
 # Special thanks
 To [@pardeike](https://github.com/pardeike), creator of [Harmony](https://github.com/pardeike/Harmony), the library that made these mods possible.
+
+To [@AzeTheGreat](https://github.com/AzeTheGreat), for the use of AzeLib and fantastic QoL mods.
+
+To [@Cairath](https://github.com/Cairath), for his contributions to the Oxygen Not Included community and wonderful mods.
