@@ -11,7 +11,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncreasedResearchStorage", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundedResearchPoints", "ResearchCenterConvertMassTesting\RoundedResearchPoints.csproj", "{47241581-B8C4-4D3A-8FA8-25A9CEC422DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnableAllModsButton", "EnableAllModsButton\EnableAllModsButton.csproj", "{3497FEC5-10B6-4BCA-9A5F-0939BC048597}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AzeLib", "..\..\Aze_ONI-Mods\AzeLib\AzeLib.shproj", "{4D79FD78-6A90-4459-8A75-66C562CAEB24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PLib", "..\..\PeterHan-ONIMods\PLib\PLib.csproj", "{22C28DC4-762F-4617-B255-DE120E3326A8}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\Aze_ONI-Mods\AzeLib\AzeLib.projitems*{4d79fd78-6a90-4459-8a75-66c562caeb24}*SharedItemsImports = 13
+		..\..\Aze_ONI-Mods\AzeLib\AzeLib.projitems*{ffa0fac1-dd91-473d-896f-3e720d9779dc}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -33,6 +43,14 @@ Global
 		{47241581-B8C4-4D3A-8FA8-25A9CEC422DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47241581-B8C4-4D3A-8FA8-25A9CEC422DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47241581-B8C4-4D3A-8FA8-25A9CEC422DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3497FEC5-10B6-4BCA-9A5F-0939BC048597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3497FEC5-10B6-4BCA-9A5F-0939BC048597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3497FEC5-10B6-4BCA-9A5F-0939BC048597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3497FEC5-10B6-4BCA-9A5F-0939BC048597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C28DC4-762F-4617-B255-DE120E3326A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C28DC4-762F-4617-B255-DE120E3326A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C28DC4-762F-4617-B255-DE120E3326A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C28DC4-762F-4617-B255-DE120E3326A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
