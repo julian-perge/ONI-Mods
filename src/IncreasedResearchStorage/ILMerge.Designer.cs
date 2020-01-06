@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IncreasedResearchStorage {
+namespace JulianPerge.IncreasedResearchStorage {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

@@ -8,7 +8,7 @@
     <ProjectGuid>{FFA0FAC1-DD91-473D-896F-3E720D9779DC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IncreasedResearchStorage</RootNamespace>
+    <RootNamespace>JulianPerge.IncreasedResearchStorage</RootNamespace>
     <AssemblyName>IncreasedResearchStorage</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -20,7 +20,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>.\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -53,15 +53,15 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\lib\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="PLib">
-      <HintPath>..\..\lib\PLib.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\lib\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\UnityEngine.dll</HintPath>
@@ -70,6 +70,15 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\lib\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\lib\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\lib\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ILMerge.Designer.cs">
@@ -77,12 +86,13 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>ILMerge.props</DependentUpon>
     </Compile>
+    <Compile Include="Patches\AdvancedResearchCenterConfig_Patch.cs" />
+    <Compile Include="Patches\CosmicResearchCenterConfig_Patch.cs" />
+    <Compile Include="Patches\ResearchCenterConfig_Patch.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\Options.cs" />
-    <Compile Include="IncreasedResearchStorage.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Analyzer Include="..\..\lib\PLib.dll" />
   </ItemGroup>
@@ -97,6 +107,12 @@
   <ItemGroup>
     <Content Include="ILMergeOrder.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\PeterHan-ONIMods\PLib\PLib.csproj">
+      <Project>{22c28dc4-762f-4617-b255-de120e3326a8}</Project>
+      <Name>PLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="..\..\..\Aze_ONI-Mods\AzeLib\AzeLib.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
@@ -104,7 +120,7 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>"$(ILMergeConsolePath)" /ndebug /out:$(TargetName)Merged.dll $(TargetFileName) PLib.dll /targetplatform:v2,C:/Windows/Microsoft.NET/Framework64/v2.0.50727
+    <PostBuildEvent>"$(ILMergeConsolePath)" /ndebug /out:$(TargetName)Merged.dll $(TargetName).dll PLib.dll /targetplatform:v2,C:/Windows/Microsoft.NET/Framework64/v2.0.50727
 
 mkdir "%25HOMEPATH%25\Documents\Klei\OxygenNotIncluded\mods\local\$(ProjectName)"
 
