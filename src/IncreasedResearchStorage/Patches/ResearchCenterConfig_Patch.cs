@@ -2,7 +2,6 @@
 using IncreasedResearchStorage;
 using UnityEngine;
 
-
 namespace JulianPerge.IncreasedResearchStorage.Patches
 {
 		[HarmonyPatch(typeof(ResearchCenterConfig), "ConfigureBuildingTemplate")]
