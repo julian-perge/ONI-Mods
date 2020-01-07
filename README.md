@@ -36,33 +36,33 @@ Please make sure the mods you use are up to date and remove ones that aren't - t
 |  **Decor**   | **Decor / visuals:** Mods that focus on decor items or non-building visual stuff                 |
 |  **Build**   | **Buildings:** Mods that add a new building to the game                                          |
 
-
+### Mods
 
 <table>
 
 	<tr>
-		<td>**Cat.**</td>
-		<td>**Name**</td>
-		<td>**Description**</td>
-		<td>**Steam**</td>
+		<th>**Cat.**</th>
+		<th>**Name**</th>
+		<th>**Description**</th>
+		<th>**Steam**</th>
 	</tr>
 	
 	<tr>
-		<td>**QoL**</td>
+		<td align="center">**QoL**</td>
 		<td>Increased Research Storage</td>
 		<td>Increases Base, Advanced, and Cosmic Research station to hold more dirt/water/databanks, respectively.</td>
 		<td>[Link](https://steamcommunity.com/sharedfiles/filedetails/?id=1961434527)</td>
 	</tr>
 	
 	<tr>
-		<td>**QoL**</td>
+		<td align="center">**QoL**</td>
 		<td>Rounded Research Points</td>
 		<td>Rounds the mass consumed when researching to avoid rounding errors. Most notable with databanks.</td>
 		<td>[Link](https://steamcommunity.com/sharedfiles/filedetails/?id=1961438756)</td>
 	</tr>
 	
 	<tr>
-		<td>**hodor**</td>
+		<td align="center">**hodor**</td>
 		<td></td>
 		<td></td>
 		<td></td>
