@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PLib", "..\..\PeterHan-ONIM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundedResearchPoints", "RoundedResearchPoints\RoundedResearchPoints.csproj", "{47241581-B8C4-4D3A-8FA8-25A9CEC422DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreRockCrusherOptions", "MoreRockCrusherOptions\MoreRockCrusherOptions.csproj", "{C65F15FC-7A4C-44AB-9D48-A2E631090F0B}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		..\..\Aze_ONI-Mods\AzeLib\AzeLib.projitems*{4d79fd78-6a90-4459-8a75-66c562caeb24}*SharedItemsImports = 13
@@ -39,6 +41,10 @@ Global
 		{47241581-B8C4-4D3A-8FA8-25A9CEC422DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47241581-B8C4-4D3A-8FA8-25A9CEC422DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47241581-B8C4-4D3A-8FA8-25A9CEC422DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65F15FC-7A4C-44AB-9D48-A2E631090F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65F15FC-7A4C-44AB-9D48-A2E631090F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65F15FC-7A4C-44AB-9D48-A2E631090F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65F15FC-7A4C-44AB-9D48-A2E631090F0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
